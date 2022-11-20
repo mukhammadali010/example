@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.bodyQora{
+    background-color:rgb(26, 24, 24);
+    transition: 1s ease-in-out;
+}
+.bodyOq{
+    background-color: #eee;
+    transition: 1s ease-in-out;
+}
+
+#sidebar{
+    width: 400px;
+    background-color: rgba(28, 28, 100, 0.925);
+    padding: 2rem;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    transition: 1s ease-in-out;
+    
+}
+
+.hide{
+    display: none;
+}
+
+#rightside{
+    width: 100%;
+    background-color: #eee;
+    transition: 1s ease-in-out;
+
+}
+
+#head{
+    width: 100%;
+    background-color: white;
+    transition: 1s ease-in-out;
+}
+
+
+ul{
+    list-style: none;
+    margin-top: 4rem;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+li{
+    margin-top: 1rem;
+    transition: 1s ease;
+    cursor: pointer;
+}
+li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li:not(:first-child):hover{
+    margin-left: 20px;
+    
+}
+
+.card{
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;  
+}
+
+#show{
+    text-transform: uppercase;
+
+}
+.content{
+    transition: 1s ease-in-out;
+
+}
+
+.dark{
+    background-color: rgb(10, 10, 10) !important;
+    color: white !important;
+    transition: 1s ease-in-out;
+
+
+}
+.darker{
+    background-color: rgb(26, 24, 24) !important;
+    color: white !important;
+    transition: 1s ease-in-out;
+}
+
+.darker1{
+    background-color: rgba(112, 107, 107, 0.781) !important;
+    color: white !important;
+    transition: 1s ease-in-out;
+
+}
+
+.iconColor{
+    color: white;
+}
+.iconRedColor{
+    color: rgba(235, 41, 41, 0.801);
+}
+
+#deleteall{
+    margin-left: 300px;
+}
